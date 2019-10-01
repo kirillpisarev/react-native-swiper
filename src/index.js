@@ -11,10 +11,10 @@ import ReactNative, {
   ScrollView,
   Dimensions,
   TouchableOpacity,
-  ViewPagerAndroid,
   ViewPropTypes,
   Platform
 } from 'react-native'
+import ViewPagerAndroid from "@react-native-community/viewpager"
 var createReactClass = require('create-react-class');
 
 // Using bare setTimeout, setInterval, setImmediate
